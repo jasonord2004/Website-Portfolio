@@ -372,4 +372,7 @@ footer{
     width: 20.875rem;
   }
 
+  .contact-form-container{
+    max-width: 23.75rem;
+  }
 }
