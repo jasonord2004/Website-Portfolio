@@ -41,6 +41,10 @@ body{
   font-family: var(--font-family);
 }
 
+h2{
+  font-size: 32px;
+}
+
 nav{
   position: sticky;
   top: 0;
@@ -92,6 +96,8 @@ nav ul li{
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  background-color:#fcfcfc;
+  background-image: url("assets/images/backgroundHeader.jpg");
 }
 
 .img-circle{
@@ -142,6 +148,8 @@ nav ul li{
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  background-color: rgba(230, 227, 227, 0.994);
+  padding: 2rem;
 }
 
 .skill-header{
@@ -159,8 +167,9 @@ nav ul li{
 
 .icon-card{
   background-color: #fff;
+  background-image: linear-gradient(#02060f, #65a3e4);
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
 }
