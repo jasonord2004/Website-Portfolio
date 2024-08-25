@@ -91,13 +91,12 @@ nav ul li{
 
 .hero{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 68.75rem;
   margin: auto;
-  background-color:#fcfcfc;
-  background-image: url("assets/images/backgroundHeader.jpg");
+  padding: 100px;
 }
 
 .img-circle{
@@ -108,7 +107,7 @@ nav ul li{
 }
 
 .hero img{
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .bio{
