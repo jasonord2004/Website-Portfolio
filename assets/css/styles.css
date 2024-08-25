@@ -94,9 +94,15 @@ nav ul li{
   margin: auto;
 }
 
+.img-circle{
+  margin: auto;
+  border: 10px solid;
+  border-radius: 50%;
+  border-color: var(--primary-color);
+}
+
 .hero img{
-  height: 37.5rem;
-  width: 37.5rem;
+  vertical-align: middle;
 }
 
 .bio{
