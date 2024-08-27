@@ -186,29 +186,43 @@ nav ul li{
   text-align: center;
   padding: 5rem 0 7.5rem 0;
   background-color: whitesmoke;
-  ;
+}
+
+.skills img{
+  display: inline-block;
+}
+
+.skills-text{
+  display: block;
+  max-width: 100%;
 }
 
 .skill-header{
   margin-bottom: 1rem;
 }
 
-.skills-wrapper img{
-  padding: 1.25rem
+.skills-wrapper {
+  display: grid;
+  grid-template-areas: 
+  "row1-col1 row1-col2 row1-col3"
+  "row2-col1 row2-col2 row2-col3";
+  justify-content:center;
+  padding: 1.25rem;
+  gap: 5rem;
 }
 
 .icon{
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 20rem;
+  height: 12rem;
 }
 
 .icon-card{
   background-color: rgb(255, 255, 255);
-  background-image: linear-gradient(#02060f, #65a3e4);
+  background-image: linear-gradient(to top, var(--bg-color) 40%, #c4ed87);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
-  margin: 20px;
+  margin: 33px;
 }
 
 .projects{
