@@ -49,7 +49,10 @@ p{
 }
 
 h2{
-  font-size: 32px;
+  font-size: 42px;
+}
+body{
+  font-family: var(--font-family);
 }
 
 nav{
@@ -61,7 +64,8 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #1c2734;
+  box-shadow: 0 3px 5px whitesmoke; /*EDIT?*/
 }
 
 nav h1{
@@ -97,21 +101,28 @@ nav ul li{
 
 .hero{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
   margin: auto;
-  padding: 100px;
-  color: whitesmoke;
-  border-bottom: 4px solid whitesmoke;
+  padding: 20rem;
+  background-color: #1c2734;
+  border-bottom: 5px solid #1c2734;
 }
 
-.img-circle{
-  margin: auto;
-  border: 10px solid;
-  border-radius: 50%;
-  border-color: var(--primary-color);
+.hero h1{
+  flex-basis: 100%;
+  font-size: 64px;
+  max-width: 85%;
+  color: whitesmoke;
+  border-bottom: 4px solid whitesmoke;
+  text-shadow: 0 2px 5px #1c2734;
+  animation-delay: 250ms;
+  text-align: center;
+}
+
 .about-me{
   display: flex;
   flex-wrap: wrap;
@@ -133,36 +144,33 @@ nav ul li{
   animation-delay: 500ms;
 } */
 
-.hero img{
-  vertical-align: top;
+.img-circle{
+  flex-shrink: 10;
+  flex-basis: 0;
+  vertical-align: middle;
+  animation-delay: 500ms;
+  /* border: 10px solid var(--secondary-color); */
+  border-radius: 50%;
+  box-shadow: 0 15px 15px -2.5px #1c2734;
 }
 
 .bio{
   width: 50rem;
-  padding: 0.625rem;
+  vertical-align: middle;
+  animation-delay: 750ms;
   border-radius: 6px;
   background-color: white;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-}
-
-.bio h2{
-  text-align: center;
-  margin-bottom: var(--bottom-margin);
+  box-shadow: 0 15px 15px -2.5px #1c2734;
 }
 
 .bio p{
   line-height: var(--line-height);
-  padding: 0 0 1rem 0;
-}
-
   padding: 0 1rem 1rem;
   text-align: center;
 }
 
 .skills{
-  margin: auto;
   text-align: center;
-  margin-top: 2.5rem;
   padding: 2rem;
   background-color: whitesmoke;
   ;
@@ -187,13 +195,12 @@ nav ul li{
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .projects{
   background-color: var(--bg-color);
   padding: 32px 0;
-  margin-top: 2rem;
 }
 
 .project-pic{
