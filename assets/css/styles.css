@@ -112,7 +112,26 @@ nav ul li{
   border: 10px solid;
   border-radius: 50%;
   border-color: var(--primary-color);
+.about-me{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 5rem 0 7.5rem 0;
+  background-color: #D8DBE4;
 }
+
+.about-me h2{
+  flex-basis: 100%;
+  padding: 100% 0;
+  text-align: center;
+  padding: 0 0 2.5rem 0;
+  margin-bottom: var(--bottom-margin);
+}
+/* .about-me img{
+  vertical-align: middle;
+  animation-delay: 500ms;
+} */
 
 .hero img{
   vertical-align: top;
@@ -136,18 +155,8 @@ nav ul li{
   padding: 0 0 1rem 0;
 }
 
-.more-about{
-  padding: 1rem 6rem;
-}
-
-.more-about h2{
-  margin-bottom: var(--bottom-margin);
+  padding: 0 1rem 1rem;
   text-align: center;
-}
-
-.more-about p{
-  line-height: var(--line-height);
-  padding: 0.4rem;
 }
 
 .skills{
@@ -369,16 +378,16 @@ footer{
     width: 20.5rem;
   }
 
-  .more-about{
+  .about-me{
     margin-top: 2rem;
     padding: 1rem 3.5rem;
   }
 
-  .more-about h2{
+  .about-me h2{
     text-align: center;
   }
 
-  .more-about p{
+  .about-me p{
     text-align: justify;
   }
 
