@@ -8,11 +8,13 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #7f83b8;
-  --secondary-shadow: #a17a69;
+  /*081629,"35596D","D8DBE4","B4655E","586B3B c4ed87*/ 
+  --bg-color: #1c2734;
+  --bg-color-2: #D8DBE4;
+  --primary-color: #c4ed87;
+  --secondary-color: #ff5035;
+  --primary-shadow: #B4655E;
+  --secondary-shadow: #586B3B;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -36,18 +38,14 @@ ul{
 
 a{
   text-decoration: none;
-  color: var(--primary-color);
-}
-
-body{
-  font-family: var(--font-family);
+  color: #c4ed87;
 }
 
 p{
   font-family: var(--font-family-2);
   font-weight: 100;
   font-size: 14px;
-  color: rgb(76, 76, 82);
+  color: #244354;
 }
 
 h2{
@@ -63,16 +61,15 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1{
-  color: var(--primary-color);
+  color: #c4ed87;
 }
 
 nav a{
-  color: var(--primary-color);
+  color: #c4ed87;
   transition: var(--transition);
 }
 nav a:hover{
@@ -90,7 +87,7 @@ nav ul li{
 }
 
 .burger-menu{
-  color: var(--primary-color);
+  color: #c4ed87;
   font-size: 2rem;
   border: 0px;
   background-color: transparent;
@@ -106,6 +103,8 @@ nav ul li{
   gap: 2.5rem;
   margin: auto;
   padding: 100px;
+  color: whitesmoke;
+  border-bottom: 4px solid whitesmoke;
 }
 
 .img-circle{
@@ -138,7 +137,6 @@ nav ul li{
 }
 
 .more-about{
-  background-color: var(--bg-color);
   padding: 1rem 6rem;
 }
 
@@ -156,8 +154,9 @@ nav ul li{
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
-  background-color: rgba(230, 227, 227, 0.994);
   padding: 2rem;
+  background-color: whitesmoke;
+  ;
 }
 
 .skill-header{
@@ -174,7 +173,7 @@ nav ul li{
 }
 
 .icon-card{
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   background-image: linear-gradient(#02060f, #65a3e4);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
