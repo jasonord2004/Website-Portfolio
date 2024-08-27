@@ -9,7 +9,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   /*081629,"35596D","D8DBE4","B4655E","586B3B c4ed87*/ 
-  --bg-color: #1c2734;
+  --bg-color: rgb(14, 35, 63);
   --bg-color-2: #D8DBE4;
   --primary-color: #c4ed87;
   --secondary-color: #ff5035;
@@ -44,7 +44,7 @@ a{
 p{
   font-family: var(--font-family-2);
   font-weight: 100;
-  font-size: 14px;
+  font-size: 16px;
   color: #244354;
 }
 
@@ -55,7 +55,11 @@ h2{
 h3{
   font-size: 18px;
   color: #244354;
-  text-shadow: 2px 8px 5px #1c27346f
+  text-shadow: 2px 8px 5px #1c273447;
+  flex-basis: 100%;
+  text-align: center;
+  font-weight: 200;
+  padding: 0 0 2.5rem 0;
 }
 
 body{
@@ -71,7 +75,7 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: #1c2734;
+  background-color: var(--bg-color);
   box-shadow: 0 3px 5px whitesmoke; /*EDIT?*/
 }
 
@@ -115,8 +119,8 @@ nav ul li{
   gap: 2.5rem;
   margin: auto;
   padding: 20rem;
-  background-color: #1c2734;
-  border-bottom: 5px solid #1c2734;
+  background-color: var(--bg-color);
+  border-bottom: 5px solid var(--bg-color);
 }
 
 .hero h1{
@@ -125,7 +129,7 @@ nav ul li{
   max-width: 85%;
   color: whitesmoke;
   border-bottom: 4px solid whitesmoke;
-  text-shadow: 0 2px 5px #1c2734;
+  text-shadow: 0 2px 5px var(--bg-color);
   animation-delay: 250ms;
   text-align: center;
 }
@@ -134,8 +138,9 @@ nav ul li{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 5rem 0 7.5rem 0;
+  column-gap: 5rem;
   background-color: #D8DBE4;
 }
 
@@ -143,13 +148,6 @@ nav ul li{
   flex-basis: 100%;
   text-align: center;
   margin-bottom: var(--bottom-margin);
-}
-
-.about-me h3{
-  flex-basis: 100%;
-  text-align: center;
-  font-weight: 200;
-  padding: 0 0 2.5rem 0;
 }
 /* .about-me img{
   vertical-align: middle;
@@ -163,7 +161,8 @@ nav ul li{
   animation-delay: 500ms;
   /* border: 10px solid var(--secondary-color); */
   border-radius: 50%;
-  box-shadow: 0 15px 15px -2.5px #1c2734;
+  border: 4px solid #c4ed87;
+  box-shadow: 0 15px 20px 1px var(--primary-color);
 }
 
 .bio{
@@ -173,13 +172,14 @@ nav ul li{
   border-radius: 6px;
   padding: 1rem;
   /* background-color: white;
-  box-shadow: 0 15px 15px -2.5px #1c2734; */
+  box-shadow: 0 15px 15px -2.5px var(--bg-color); */
 }
 
 .bio p{
   line-height: var(--line-height);
   padding: 0 1rem 1rem;
   text-align: left;
+  width: 50rem;
 }
 
 .skills{
