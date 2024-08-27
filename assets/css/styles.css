@@ -51,6 +51,13 @@ p{
 h2{
   font-size: 42px;
 }
+
+h3{
+  font-size: 18px;
+  color: #244354;
+  text-shadow: 2px 8px 5px #1c27346f
+}
+
 body{
   font-family: var(--font-family);
 }
@@ -127,17 +134,22 @@ nav ul li{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding: 5rem 0 7.5rem 0;
   background-color: #D8DBE4;
 }
 
 .about-me h2{
   flex-basis: 100%;
-  padding: 100% 0;
   text-align: center;
-  padding: 0 0 2.5rem 0;
   margin-bottom: var(--bottom-margin);
+}
+
+.about-me h3{
+  flex-basis: 100%;
+  text-align: center;
+  font-weight: 200;
+  padding: 0 0 2.5rem 0;
 }
 /* .about-me img{
   vertical-align: middle;
@@ -155,23 +167,24 @@ nav ul li{
 }
 
 .bio{
-  width: 50rem;
-  vertical-align: middle;
+  max-width: 40rem;
+  vertical-align: bottom;
   animation-delay: 750ms;
   border-radius: 6px;
-  background-color: white;
-  box-shadow: 0 15px 15px -2.5px #1c2734;
+  padding: 1rem;
+  /* background-color: white;
+  box-shadow: 0 15px 15px -2.5px #1c2734; */
 }
 
 .bio p{
   line-height: var(--line-height);
   padding: 0 1rem 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .skills{
   text-align: center;
-  padding: 2rem;
+  padding: 5rem 0 7.5rem 0;
   background-color: whitesmoke;
   ;
 }
