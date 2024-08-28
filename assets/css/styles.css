@@ -162,7 +162,7 @@ nav ul li{
   /* border: 10px solid var(--secondary-color); */
   border-radius: 50%;
   border: 4px solid #c4ed87;
-  box-shadow: 0 15px 20px 1px var(--primary-color);
+  box-shadow: 0 15px 20px 5px var(--primary-shadow);
 }
 
 .bio{
@@ -194,7 +194,12 @@ nav ul li{
 
 .skills-text{
   display: block;
-  max-width: 100%;
+  text-align: center;
+  max-width: 25rem;
+}
+
+.skills-text strong{
+  color: var(--secondary-color);
 }
 
 .skill-header{
@@ -208,7 +213,14 @@ nav ul li{
   "row2-col1 row2-col2 row2-col3";
   justify-content:center;
   padding: 1.25rem;
-  gap: 5rem;
+  gap: 2.5rem;
+}
+
+.skills-wrapper h3{
+  text-shadow: none;
+  flex-basis: auto;
+  font-weight:bolder;
+  padding: 0 0 1rem 0;
 }
 
 .icon{
