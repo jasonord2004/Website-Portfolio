@@ -162,7 +162,7 @@ nav ul li{
   /* border: 10px solid var(--secondary-color); */
   border-radius: 50%;
   border: 4px solid #c4ed87;
-  box-shadow: 0 15px 20px 5px var(--primary-shadow);
+  box-shadow: 0 3px 25px var(--primary-shadow);
 }
 
 .bio{
@@ -196,6 +196,7 @@ nav ul li{
   display: block;
   text-align: center;
   max-width: 25rem;
+  line-height: 2rem;
 }
 
 .skills-text strong{
@@ -213,13 +214,13 @@ nav ul li{
   "row2-col1 row2-col2 row2-col3";
   justify-content:center;
   padding: 1.25rem;
-  gap: 2.5rem;
+  gap: 6rem;
 }
 
 .skills-wrapper h3{
   text-shadow: none;
   flex-basis: auto;
-  font-weight:bolder;
+  font-weight: bolder;
   padding: 0 0 1rem 0;
 }
 
@@ -351,7 +352,7 @@ nav ul li{
   flex-direction: column;
   position: fixed;
   right: 1%;
-  bottom: 50%;
+  bottom: 40%;
 }
 
 .socicon{
