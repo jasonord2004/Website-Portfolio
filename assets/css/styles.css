@@ -271,8 +271,30 @@ nav ul li{
   padding: 0.4rem;
 }
 
+.project-container li{
+  font-family: var(--font-family-2);
+  font-weight: 100;
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 2rem;
+  text-align: left;
+  margin: 1rem;
+}
+
+.project-container a{
+  font-weight: bold;
+}
+
+.project-container a:hover{
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
 .project-title{
-  margin-bottom: var(--bottom-margin);
+  padding: 2rem 0 2rem 0;
+  text-shadow: none;
+  flex-basis: auto;
+  font-weight: bolder;
 }
 
 .project-details{
@@ -283,8 +305,8 @@ nav ul li{
   background-color: whitesmoke;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
+  padding: 15px;
+  margin: 50px;
 }
 
 .contact{
