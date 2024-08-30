@@ -392,6 +392,15 @@ footer{
 }
 
 footer p{
+  color: var(--secondary-shadow);
+}
+
+footer a:hover{
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  cursor: pointer;
+}
+
 .scroll-up{
   position: fixed;
   right: 0.5%;
