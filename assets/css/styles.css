@@ -11,7 +11,7 @@
   /*081629,"35596D","D8DBE4","B4655E","586B3B c4ed87*/ 
   --bg-color: rgb(14, 35, 63);
   --bg-color-2: #D8DBE4;
-  --primary-color: #c4ed87;
+  --primary-color: #b8e674;
   --secondary-color: #ff5035;
   --text-color: #244354;
   --primary-shadow: #B4655E;
@@ -47,6 +47,7 @@ p{
   font-weight: 100;
   font-size: 16px;
   color: var(--text-color);
+  line-height: 2rem;
 }
 
 h2{
@@ -197,7 +198,6 @@ nav ul li{
   display: block;
   text-align: center;
   max-width: 25rem;
-  line-height: 2rem;
 }
 
 .skills-text strong{
@@ -329,7 +329,7 @@ nav ul li{
 .contact-form-container label{
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .contact-form-container textarea{
