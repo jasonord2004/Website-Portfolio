@@ -13,6 +13,7 @@
   --bg-color-2: #D8DBE4;
   --primary-color: #c4ed87;
   --secondary-color: #ff5035;
+  --text-color: #244354;
   --primary-shadow: #B4655E;
   --secondary-shadow: #586B3B;
   --bottom-margin: 0.5rem;
@@ -38,14 +39,14 @@ ul{
 
 a{
   text-decoration: none;
-  color: #c4ed87;
+  color: var(--primary-color);
 }
 
 p{
   font-family: var(--font-family-2);
   font-weight: 100;
   font-size: 16px;
-  color: #244354;
+  color: var(--text-color);
 }
 
 h2{
@@ -54,7 +55,7 @@ h2{
 
 h3{
   font-size: 18px;
-  color: #244354;
+  color: var(--text-color);
   text-shadow: 2px 8px 5px #1c273447;
   flex-basis: 100%;
   text-align: center;
@@ -80,11 +81,11 @@ nav{
 }
 
 nav h1{
-  color: #c4ed87;
+  color: var(--primary-color);
 }
 
 nav a{
-  color: #c4ed87;
+  color: var(--primary-color);
   transition: var(--transition);
 }
 nav a:hover{
@@ -102,7 +103,7 @@ nav ul li{
 }
 
 .burger-menu{
-  color: #c4ed87;
+  color: var(--primary-color);
   font-size: 2rem;
   border: 0px;
   background-color: transparent;
@@ -161,7 +162,7 @@ nav ul li{
   animation-delay: 500ms;
   /* border: 10px solid var(--secondary-color); */
   border-radius: 50%;
-  border: 4px solid #c4ed87;
+  border: 4px solid var(--primary-color);
   box-shadow: 0 3px 25px var(--primary-shadow);
 }
 
@@ -232,7 +233,7 @@ nav ul li{
 
 .icon-card{
   background-color: rgb(255, 255, 255);
-  background-image: linear-gradient(to top, var(--bg-color) 40%, #c4ed87);
+  background-image: linear-gradient(to top, var(--bg-color) 40%, var(--primary-color));
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
@@ -240,8 +241,8 @@ nav ul li{
 }
 
 .projects{
-  background-color: var(--bg-color);
   padding: 32px 0;
+  background-color: var(--bg-color-2);
 }
 
 .project-pic{
@@ -279,9 +280,9 @@ nav ul li{
 }
 
 .project-card{
-  background-color: #fff;
+  background-color: whitesmoke;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
+  box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
 }
@@ -334,7 +335,7 @@ nav ul li{
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
+  background-color: whitesmoke;
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   font-size: 1rem;
