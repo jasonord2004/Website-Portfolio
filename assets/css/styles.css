@@ -151,6 +151,18 @@ nav ul li{
   text-align: center;
   margin-bottom: var(--bottom-margin);
 }
+
+.about-me a{
+  color: var(--bg-color);
+  font-weight: bolder;
+}
+
+.about-me a:hover{
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  cursor: pointer;
+}
+
 /* .about-me img{
   vertical-align: middle;
   animation-delay: 500ms;
