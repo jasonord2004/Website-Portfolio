@@ -549,7 +549,7 @@ footer a:hover{
   }
 
   .skills-text{
-    font-size: smaller;
+    font-size: x-small;
     width: 100%;
   }
 
@@ -576,15 +576,15 @@ footer a:hover{
   }
 
   .project-container{
-    width: 20.875rem;
+    width: 80%;
   }
 
   .project-container p{
-    font-size: small;
+    font-size: x-small;
   }
 
   .project-container li{
-    font-size: small;
+    font-size: x-small;
   }
 
   .contact-form-container {
