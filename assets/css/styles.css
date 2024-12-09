@@ -435,7 +435,7 @@ footer a:hover{
   /*changes are seen on screens with 720px and lower width*/
   nav{
     padding: 1.5rem 1rem;
-    font-size: smaller;
+    font-size: x-small;
   }
 
   nav ul{
@@ -558,9 +558,9 @@ footer a:hover{
     height: 10rem;
   }
 
-  .icon{
-    width: 5.875rem;
-    height: 5.25rem;
+  .socials img{
+    width: 2rem;
+    height: 2rem;
   }
 
   .projects-title{
