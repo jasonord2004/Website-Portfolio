@@ -579,6 +579,11 @@ footer a:hover{
     width: 80%;
   }
 
+  .project-card{
+    align-self: center;
+    margin-top: 25px;
+  }
+
   .project-container p{
     font-size: x-small;
   }
@@ -598,5 +603,9 @@ footer a:hover{
 
   .contact label{
     font-size: small;
+  }
+
+  .footer p{
+    font-size: smaller;
   }
 }
